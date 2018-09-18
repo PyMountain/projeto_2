@@ -65,6 +65,29 @@ p {
     text-decoration: none;
   }
 }
+#opcoes ul{
+  list-style:none;
+  float: right;
+  padding:0px;
+  margin:0px;
+  color: #2E2F30;
+  li {
+    display: inline;
+    color: #555555;
+    a {
+      padding: 0px 10px;
+      display: inline-block;
+
+      /* visual do link */
+      color: #777777;
+      text-decoration: none;
+      &:hover{
+        background-color: black;
+        color: #BBBBBB;
+      }
+    }
+  }
+}
 
 /* footer */
 
