@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   post '/login',    to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
   get '/mial',      to: 'welcome#index'
-  post '/mial',     to: 'welcome#index'
   root 'static_pages#home'
   resources :users
 end
